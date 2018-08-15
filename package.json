@@ -1,7 +1,7 @@
 {
    "name": "SimpleAPI",
    "description": "Simple API Node.js to test CI/CD using Jenkins",
-   "version": "0.0.3",
+   "version": "0.0.4",
    "private": true,
    "main": "index.js",
    "scripts": {
