@@ -1,0 +1,19 @@
+{
+   "name": "SimpleAPI",
+   "description": "Simple API Node.js to test CI/CD using Jenkins",
+   "version": "0.0.3",
+   "private": true,
+   "main": "index.js",
+   "scripts": {
+      "test": "mocha 'test/test.js' --exit"
+   },
+   "dependencies": {
+      "express": "^4.16.3",
+      "request": "^2.85.0"
+   },
+   "devDependencies": {
+      "mocha": "^5.2.0",
+      "supertest": "^3.1.0",
+      "jasmine-node": "^1.14.5"
+   }
+}
