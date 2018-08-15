@@ -3,7 +3,7 @@
    "description": "Simple API Node.js to test CI/CD using Jenkins",
    "version": "0.0.4",
    "private": true,
-   "main": "index.js",
+   "main": "index2.js",
    "scripts": {
       "test": "mocha 'test/test.js' --exit"
    },
