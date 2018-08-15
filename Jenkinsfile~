@@ -1,18 +1,18 @@
 pipeline {
   agent any
     
-  tools {nodejs "NodeJS"}
+  tools {nodejs "NodeJS 10.8.0"}
     
   stages {
         
         
-    stage('Install dependencies') {
+    stage('Mulia Install dependencies') {
       steps {
         sh 'npm install'
       }
     }
      
-    stage('Test') {
+    stage('Mulai Test') {
       steps {
          sh 'npm test'
       }
