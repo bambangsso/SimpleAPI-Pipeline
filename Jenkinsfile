@@ -21,7 +21,7 @@ pipeline {
       steps {
          sh 'ssh jenkins@10.140.0.3 "rm -fR SimpleAPI-Pipeline && mkdir SimpleAPI-Pipeline"'
 	 sh 'scp -r . jenkins@10.140.0.3:/home/jenkins/SimpleAPI-Pipeline'
-         sh 'ssh jenkins@10.140.0.3 "sleep 10 && cd SimpleAPI-Pipeline && ls -la && pm2 start -f index2.js &&  sleep 1 && exit"'
+         sh 'ssh jenkins@10.140.0.3 "sleep 10 && cd SimpleAPI-Pipeline && ls -la && pm2 start index2.js &&  sleep 1 && exit"'
       }
     }
 
